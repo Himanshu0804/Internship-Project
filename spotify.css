@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,400;1,500&display=swap');
+
+
+body{
+    background-color: yellowgreen;
+
+}
+
+*{
+    margin: 0;
+    padding: 0px;
+} 
+nav{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color:black;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+
+    margin: 2px;
+}
+
+nav ul li{
+    padding:0 25px;
+}
+.brand img{
+    width: 60px;
+    padding:0 10px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.songItemContainer{
+    margin-top: 30px;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 20px ;
+    border-radius: 15px;
+    padding: 0px;
+    background-image: url(newbg.png);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+
+
+}
+
+.bottom{
+    display: flex;
+    position:static;
+    height: 75px;
+    background-color:black;
+    color: aliceblue;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+   
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+#myProgressBar{
+    width: 75vw;
+    text-align: center;
+    cursor: pointer;
+}  
+  
+.icons{
+    margin-top: 10px;
+    size-adjust: 50px,20px;
+}
+.icons{
+    cursor: pointer;
+}
+.songItem{
+    height: 40px;
+    display: flex;
+    background-color:lightslategray;
+    width: 120%;
+    margin: 20px;
+    cursor: pointer;
+    color: black;
+    border-radius: 18px;
+    padding: 10px;
+    justify-content: space-around;
+    text-align: center;
+
+
+
+}
+.songItem img{
+    size: 90px ;
+    border-radius: 100px;
+}
+
+.timeSpan{
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+.songInfo{
+    position: absolute;
+    text-size-adjust: 20px;
+    
+    letter-spacing: 2px;
+    margin-top: 2.5vw;
+    right: 10vw;
+    color:whitesmoke;
+    text-shadow: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+
+}
